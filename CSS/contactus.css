@@ -1,0 +1,137 @@
+body{
+    
+    background-image: url("../IMAGES/backg.jpg");
+    opacity: 0.8;
+    
+    background-repeat: no-repeat;
+    background-size: 100% 20.5cm;
+    background-position-y: 85PX;
+}
+#nav{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #2F4F4F;
+}
+#logo{
+    margin-top:0.2cm;
+    margin-left: 0;
+    position: absolute;
+}
+
+li .e2{
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+}
+.e2{
+    float: right;
+}
+
+#div1{
+    background-color: blanchedalmond;
+    width:23%;
+    height: 6cm;
+}
+.list1{
+    list-style-type: none;
+    overflow: hidden;
+    padding-top: 0.3cm;
+    float:left;
+}
+li .topic1{
+    font-size: large;
+}
+li .topic2{
+    color: black;
+    font-size: medium;
+
+}
+li .con{
+    color: black;
+    font-size: small;
+}
+#div2{
+    background-color: blanchedalmond;
+    width:30%;
+    height: 6cm;
+    margin-left: 8.5cm;
+    margin-top: -6cm;
+}
+#div3{
+    background-color: blanchedalmond;
+    width:25%;
+    height: 6cm;
+    margin-left: 19.5cm;
+    margin-top: -6cm; 
+}
+#div4{
+    background-color: blanchedalmond;
+    width:15%;
+    height: 2cm;
+    margin-left:29cm ;
+    margin-top: -6cm;
+}
+#btn1{
+    margin-left: 1cm;
+}
+#btn2{
+    margin-left: 1cm;
+    margin-top: -2cm;
+}
+#btn3{
+    margin-left: -6.6cm;
+}
+
+.state{
+    font-size: 20px;
+    margin-left: 14cm;
+}
+.txt1{
+   
+    width:7cm;
+    height: 1cm;
+
+}
+#footer{
+    background-color: rgb(32, 30, 30);
+    margin-top: -0.3cm;
+    height:6cm;
+    width: 100%;
+    padding-left: 0;
+}
+#gold{
+    color: yellow;
+    font-size:20px ;
+    padding-left: 2cm;
+}
+
+#quick{
+    list-style-type:none;
+    float: right;
+    overflow: hidden;
+    margin-top: 0;
+    
+}
+li .final{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    margin-right: 1cm;
+}
+
+
+#all{
+    list-style-type:none;
+    float: left;
+    overflow: hidden;
+    color: white;
+    font-size: x-small;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+
+

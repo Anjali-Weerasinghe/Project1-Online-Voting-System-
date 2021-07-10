@@ -1,0 +1,134 @@
+body{
+   
+   }
+#nav{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: cornflowerblue;
+}
+#logo{
+    margin-top:0.2cm;
+    margin-left: 0;
+    position: absolute;
+}
+
+li .e2{
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+}
+.e2{
+    float: right;
+}
+.mySlides{
+    display: none;
+}
+.img1{
+    vertical-align:middle ;
+    border-radius:7px;
+}
+.slideshow{
+    max-width: 2000px;
+    margin: auto;
+    position: relative;
+}
+.dot{
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #bbb;
+    display: inline-block;
+    border-radius: 50%;
+    transition: #bbb 0.6s ease;
+
+}
+.active{
+    background-color: #717171;
+}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s ;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+@keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+#content{
+    background-color:rgb(206, 191, 191);
+    margin-top: -0.5cm;
+    
+}
+.e4{
+    color: black;
+    font-size: 20px;
+    padding: 3px ;
+    text-align:center;
+}
+#one{
+    background-color: gray;
+    font-size: 20px;
+    margin-top: 0.01cm;
+    height: 12cm;
+    z-index: 0.9;
+}
+#left{
+    text-align: left;
+    padding-left: 2cm;
+    margin-right:21cm;
+}
+#justify{
+    text-align: justify;
+    margin-left: 14cm;
+    margin-top: -10.3cm;
+}
+#right{
+    text-align: justify;
+    margin-top:-10cm ;
+    margin-left: 25cm
+}
+#footer{
+    background-color: rgb(32, 30, 30);
+    margin-top: 4cm;
+    height:6cm;
+}
+#gold{
+    color: yellow;
+    font-size:20px ;
+    padding-left: 2cm;
+}
+
+#quick{
+    list-style-type:none;
+    float: right;
+    overflow: hidden;
+    margin-top:0.1px;
+    
+}
+li .final{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+
+#all{
+    list-style-type:none;
+    float: left;
+    overflow: hidden;
+    color: white;
+    font-size: x-small;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+
+

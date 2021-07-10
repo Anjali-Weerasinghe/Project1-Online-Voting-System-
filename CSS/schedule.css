@@ -1,0 +1,46 @@
+body{
+
+    background-image: url("../IMAGES/gettyimages-1063375198-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 38cm;
+    background-position-y: 65PX;
+    
+}
+#z1{
+    background-color:black;
+	list-style-type:none;
+	background-size:100%;
+	padding:0px;
+	margin-left: -0.5cm;
+	margin-top:10px;
+	overflow:hidden;
+}
+.ab a{
+    color:MediumSlateBlue;
+	font-size:20px;
+	display:block;
+	padding:10px 20px;
+	text-decoration:none;
+}
+
+#z1 li{
+    float: left;
+}
+#z1 li a:hover{
+    background-color:#aabbcc;
+}
+.photo{
+    height: 250px;
+    width: 300px;
+    border:black solid 1px;
+}
+.idi{
+    font-size: 20px;
+}
+.namen{
+    background-color: black;
+    color: white;
+    width: 2cm;
+    height: 1cm;
+    font-size: 15px;
+}
